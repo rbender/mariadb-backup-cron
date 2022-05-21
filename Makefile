@@ -1,8 +1,6 @@
 IMAGE_NAME=mariadb-backup-cron
 VERSION=latest
-#REGISTRY_TAG=docker.rgbhome.net/rgb/$(IMAGE_NAME):$(VERSION)
 REGISTRY_TAG=rbender/$(IMAGE_NAME):$(VERSION)
-
 
 .PHONY: build
 build:
